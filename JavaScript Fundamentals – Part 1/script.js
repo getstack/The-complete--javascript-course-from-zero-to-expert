@@ -201,6 +201,8 @@ if(money > 2) {
 
     } else {
 
+      console.log("Files is added");
+
       }
   
 
