@@ -201,9 +201,8 @@ if(money > 2) {
 
     } else {
 
-      console.log ("You are not eligible to drive");
-
-    }
+      }
+  
 
 
    
@@ -225,18 +224,6 @@ if(money > 2) {
 
 
         
-
-
-
-
-
-    
-    
-
-    
-
-     
-
 
 
 
