@@ -33,12 +33,13 @@ console.log("Match is draw of both teams ");
 }
 
 
+
 // BONUS 1
 
 
 
-const scoreDolphins = (97+112+101)/3;
-const scoreKoalas   = (88+91+110)/3;
+const scoreDolphins = (97+112+90)/3;
+const scoreKoalas   = (88+91+60)/3;
 
 console.log(scoreDolphins ,scoreKoalas );
 
@@ -46,17 +47,15 @@ console.log(scoreDolphins ,scoreKoalas );
 
             console.log("Dolphin win the Tophy");
 
-        } else if (scoreKoalas > scoreDolphins && scoreKoalas >=100)
+        } else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100)
         {
             console.log("koalas win the match");
-        }else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >=100){
+        } else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100){
 
             console.log("Both hace win the Match");
+        } else {
+
+            console.log("No one wins the trophy");
         }
-
-
-
-
-
 
 
