@@ -191,7 +191,7 @@ if(money > 2) {
 
 
    // Logocal operators 
-    const hasDriverLicence = true ;
+  /*  const hasDriverLicence = true ;
     const  hasGoodVision   = true ;
     const  isTired  = false;
 
@@ -204,8 +204,96 @@ if(money > 2) {
       console.log("Files is added");
 
       }
+*/
+      // Switch Statement 
+/*
+      const days = "Saturday";
 
-      // 
+      switch(days){
+
+      case 'Monday':
+          console.log("Going to office for doing my job");
+          break;
+      case 'Tuesday':
+          console.log("I will Study ajavscript");
+          console.log("I will study flexbox");
+        break;
+      case 'Wednesday':
+      case 'Thursday':
+       console.log("I will going to gym"); 
+       break;
+      case 'Friday':
+        console.log("I will offers Jummah ");
+        break;
+      case 'Saturday':
+      case  'Sunday' :
+          console.log("Enjoying weekened have some party  ");
+        break;
+        
+        default:
+        console.trace("not a valid day");
+        
+      }
+
+      // Same logic with if else
+
+      
+
+      if (days === 'Monday'){
+
+        console.log("Going to office for doing my job");
+
+      } else if (days === 'Tuesdays'){
+        console.log("I will Study ajavscript");
+        console.log("I will study flexbox");
+
+       } else if (days === 'Wednesday' || days === 'Thursday' ){
+
+        console.log("I will going to gym"); 
+        
+
+       } else if (days === 'Friday' ){
+
+        console.log("I will offers Jummah"); 
+        
+
+       } else if (days === 'Saturday' || days === 'Sunday' ){
+
+        console.log("Enjoying weekened have some party"); 
+        
+
+       } else {
+         console.log(" Not a valid day")
+       }
+*/
+ // Ternary Operator
+
+ const age = 28 ;
+
+ age > 18 ? console.log("You are allowed"): console.log("You are not allowed");
+
+ let drinkz;
+
+ if (age > 28){
+
+  drinkz = "Cococola";
+
+ } else {
+
+  drinkz = "Sprite";
+
+ }
+
+ console.log (drinkz)
+
+ let drink2 ;
+
+ console.log(`i like to drink ${ age > 20 ? 'wine':'Sprite'}`);
+ 
+ 
+ 
+
+
   
 
 
